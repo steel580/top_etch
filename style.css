@@ -1,8 +1,21 @@
-.block{
-    border: black 1px solid;
-    width: 20px;
-    height: 20px;
+#canvas{
+    width: 500px;
+    height: 500px;
+    border: red 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 .row{
     display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.block{
+    display: flex;
+    flex-grow: 1;
+    border: black 1px solid;
+    height: auto;
 }
